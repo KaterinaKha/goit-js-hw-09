@@ -5,6 +5,9 @@ const refs = {
 
 let intervalId = null;
 
+refs.startBtn.style.fontSize = '25px';
+refs.stopBtn.style.fontSize = '25px';
+
 refs.startBtn.addEventListener('click', changeBackgroundColors);
 refs.stopBtn.addEventListener('click', stopChangeBackgroundColors);
 
