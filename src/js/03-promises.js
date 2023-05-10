@@ -4,7 +4,6 @@ const refs = {
   form: document.querySelector('.form'),
   buttonEl: document.querySelector('button'),
 };
-
 refs.form.addEventListener('submit', onClickCreatePromises);
 
 function onClickCreatePromises(e) {
